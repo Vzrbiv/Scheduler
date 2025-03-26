@@ -91,9 +91,9 @@ fun Table() {
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .height(300.dp) // Ограничение по высоте
+            .height(300.dp)
             .background(Color.LightGray)
-            .padding(8.dp) // Отступы вокруг таблицы
+            .padding(8.dp)
     ) {
         Row(Modifier.fillMaxWidth().background(Color.Gray)) {
             TableHeaderCell("Дата и время")
